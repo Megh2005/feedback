@@ -228,6 +228,7 @@ export default function FeedbackPage() {
                     </Label>
                     <Input
                       id="name"
+                      disabled
                       value={formData.name}
                       onChange={(e) => handleInputChange("name", e.target.value)}
                       placeholder="YOUR FULL NAME"
@@ -242,6 +243,7 @@ export default function FeedbackPage() {
                     <Input
                       id="email"
                       type="email"
+                      disabled
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
                       placeholder="YOUR@EMAIL.COM"
