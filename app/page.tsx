@@ -68,7 +68,7 @@ export default function LandingPage() {
                 <Users className="w-16 h-16 mx-auto mb-4" />
                 <CardTitle className="text-2xl font-black mb-4">BOOST ENGAGEMENT</CardTitle>
                 <CardDescription className="text-cream font-sharetech text-lg">
-                  SHAPE INTERACTIVE EXPERIENCES THAT KEEP AUDIENCES LOCKED IN AND LEARNING
+                  SHAPE INTERACTIVE EXPERIENCES THAT KEEP AUDIENCES LEARNING
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -88,7 +88,7 @@ export default function LandingPage() {
       <section className="py-20 px-4 bg-accent">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-black text-primary mb-6">READY TO MAKE WAVES?</h2>
-          <p className="text-2xl text-primary font-sharetech mb-12">2 MINUTES. MASSIVE IMPACT. LET'S GO.</p>
+          <p className="text-2xl text-primary font-sharetech mb-12">2 MINUTES - LET'S GO.</p>
           <Link href="/feedback">
             <Button
               size="lg"
